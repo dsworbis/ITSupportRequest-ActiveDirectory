@@ -10,8 +10,8 @@ $basedn = "OU=FillOutOu,DC=FillOutDC,DC=FillOutDC";
 $server = "ldap://DC001.DOMAIN.de:389";
 
 // da der Zugriff auch ohne Anmeldung möglich sein soll, hab ich einen extra User im AD angelegt, um mich mit dem Server zu verbinden.
-
-$username = 'skv\\' . $user;
+//ToDo
+$username = 'domain\\' . $user;
 $password = $pass;
 
 $ldap_port = "389";
